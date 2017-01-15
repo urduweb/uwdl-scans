@@ -1,0 +1,4 @@
+<Directory ~ "\private">
+Order allow,deny
+Deny from all
+</Directory>

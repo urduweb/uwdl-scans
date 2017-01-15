@@ -1,0 +1,10 @@
+#!/bin/bash
+for f in *.gif
+do
+  echo "Processing $f file..."
+  # take action on each file. $f store current file name
+  # cat $f
+  t="${f%*.*}.png"
+#  echo "$t"
+  convert $f $t
+done
